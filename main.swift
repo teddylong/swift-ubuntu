@@ -42,14 +42,14 @@ func sum (x:Int, y:Int)
 print ("Sum Number: " + String(sum(123456, y: 7890)));
 
 // 无返回值的默认写法
-let s = "noReturn";
+let word = "noReturn";
 func NoReturnFunc1(s:String) -> Void { print(s); }
 func NoReturnFunc2(s:String) -> () { print(s); }
 func NoReturnFunc3(s:String) { print(s); }
 
-NoReturnFunc1(s);
-NoReturnFunc2(s);
-NoReturnFunc3(s);
+NoReturnFunc1(word);
+NoReturnFunc2(word);
+NoReturnFunc3(word);
 
 
 // 参数中带默认值
